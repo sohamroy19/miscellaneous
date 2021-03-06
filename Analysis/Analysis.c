@@ -1,12 +1,10 @@
 /**
- * Group 7D	:	EE20B129: Sneha Reddy P
- * 			EE20B130: Soham Roy
- * 			EE20B131: Souvik Mondal
+ * Author	:	@sohamroy19
+ * Date		:	06-03-2021
  *
- * Purpose	:
- * 	This program analyses the data provided by the flow cyclometer and
- * 	finds the location and width of each droplet, to then find the mean and
- * 	the standard deviation of the arrival times between the droplets.
+ * Purpose	:	This program analyses the data provided by the flow cyclometer and
+ * 			finds the location and width of each droplet, to then find the mean and
+ * 			the standard deviation of the arrival times between the droplets.
  *
  * Inputs	:	data.txt: two columns of data
  * Outputs	:	output.txt: 3 columns of output
