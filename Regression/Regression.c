@@ -1,8 +1,5 @@
 /**
- * EE20B129 Sneha Reddy P
- * EE20B130 Soham Roy
- * EE20B131 Souvik Mandal
- *
+ * Author	:  @sohamroy19
  * Data		:  24-02-2021
  *
  * Purpose	:  This program finds Vth for the data given in sgfet.csv, and also
