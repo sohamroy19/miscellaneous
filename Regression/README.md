@@ -6,5 +6,5 @@ Read the data from the datafile.
 Start with one curve (Vg11), and find Vth. You can use any suitable method 
 linear fits to the low and high voltage parts of the graph
 start with some value of Vth and try to minimize the RMS error from the linear fits by search for a better Vth
-fitting all the data to a model curve e.g.  I = I<sub>0</sub>(1-e<sup>-V/V<sub>0</sub></sup>
+fitting all the data to a model curve e.g.  I = I<sub>0</sub>(1-e<sup>-V/V<sub>0</sub></sup>)
 Repeat the exercise for the different data columns in the datafile and finally plot Vth versus Vg
