@@ -1,14 +1,13 @@
 # ODE
 
 Landau–Lifshitz–Gilbert equation (LLG equation) describes the magnetic precession in solid. <br>
-Below, two forms of LLG equation are given, one in terms of m→ and another in terms of θ, ϕ. <br>
-You can use either of them to solve LLG equation:
+Two forms of LLG equation were given, one in terms of **m** and another in terms of θ, ϕ. <br>
+We used the latter to solve LLG equation:
 
-dm→dt=|γLL|11+α2(m→×B→eff+α(m→×(m→×B→eff)))
+θ˙ = dθ/dt = (γα/(α<sup>2</sup>+1))H<sub>z</sub>sinθ,
+−φ˙= dφ/dt = θ˙αsinθ = (dθ/dt)(1/αsinθ)
 
-θ˙=dθdt=γαα2+1Hzsinθ, −φ˙=dφdt=θ˙αsinθ=dθdt1αsinθ
-
-Where, γ = -1.76e11, α can be varied from 0 to 1. Hz = 1μ0100e-03 A/m.
+Where, γ = -1.76e11, α can be varied from 0 to 1. H<sub>z</sub> = (1/μ<sub>0</sub>)100e-03 A/m.
 
 This ODE can be solved by Midpoint method, third- and fourth-order Runge-Kutta method (RK3, RK4) and Runge–Kutta–Fehlberg method (RK45) etc.
 
@@ -19,4 +18,4 @@ The aims of this assignment are as follows:
 3. Vary α and record the switching time Tsw for each α. Plot α vs Tsw.
 4. Plot reduced magnetization vector (m→) in three dimensions.
 
-Take intial values of polar and azimuthal angles as θin = 179∘ and ϕin = 1∘.
+Take intial values of polar and azimuthal angles as θ<sub>in</sub> = 179∘ and ϕ<sub>in</sub> = 1∘.
