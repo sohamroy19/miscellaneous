@@ -4,7 +4,7 @@ Landau–Lifshitz–Gilbert equation (LLG equation) describes the magnetic prece
 Two forms of LLG equation were given, one in terms of **m** and another in terms of θ, ϕ. <br>
 We used the latter to solve LLG equation:
 
-dθ/dt = ( γα/(α<sup>2</sup>+1) ) H<sub>z</sub>sinθ,
+dθ/dt = ( γα/(α<sup>2</sup>+1) ) H<sub>z</sub>sinθ, <br>
 −dφ/dt = θ'αsinθ = (dθ/dt) (1/αsinθ)
 
 Where,  γ = -1.76e11, <br>
