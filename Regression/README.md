@@ -9,3 +9,5 @@ Start with one curve (V<sub>g</sub>11), and find V<sub>th</sub>. You can use any
 - fitting all the data to a model curve e.g.  I = I<sub>0</sub>(1-e<sup>-V/V<sub>0</sub></sup>)
 
 Repeat the exercise for the different data columns in the datafile and finally plot Vth versus V<sub>g</sub>
+
+Refer to the PDF for graphical representation.
