@@ -8,3 +8,5 @@ The data file has 2 columns of data
 
 column one: forward scatter (noisier, simple photodetector)<br>
 column two: side scatter (cleaner, sensitive photomultiplier tube)
+
+Refer to the PDF for graphical representation.
