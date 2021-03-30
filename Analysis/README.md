@@ -6,5 +6,5 @@ the location (record number) of  droplet and the width of the droplet
 the mean arrival time, and its std dev, between droplets
 The data file has 2 columns of data
 
-column one: forward scatter (noisier, simple photodetector)
+column one: forward scatter (noisier, simple photodetector)<br>
 column two: side scatter (cleaner, sensitive photomultiplier tube)
