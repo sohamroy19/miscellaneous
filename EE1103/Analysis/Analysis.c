@@ -7,7 +7,7 @@
  * 			the standard deviation of the arrival times between the droplets.
  *
  * Inputs	:	data.txt: two columns of data
- * Outputs	:	output.txt: 3 columns of output
+ * Outputs	:	output.txt: 3 columns of output, used for data visualisation while solving
  * 			histo2.txt: histogram data for column 2
  * 			histo1.txt: histogram data for column 1
  * 			Tabulated data outputted to the terminal
@@ -68,7 +68,7 @@ void readData(double *col1, double *col2) {
 /* Purpose	:	Writes the output to file output.txt,
  * 			calls statistics() to perform statistics
  * Inputs	:	columns of data to be outputted
- * Outputs	:	output.txt: 3 columns of data
+ * Outputs	:	output.txt: 3 columns of data, used for data visualisation while solving
  * 			histo2.txt: histogram data for column 2
  * 			histo1.txt: histogram data for column 1
  */
