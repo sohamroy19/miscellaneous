@@ -3,12 +3,12 @@
  * Date		:	24-04-21
  * 
  * Purpose	:	This is a program that takes an integer n from the user
- * 				and prints all subsets of the set {1, 2, 3, ..., n},
- * 				without repeating the same subset.
+ * 			and prints all subsets of the set {1, 2, 3, ..., n},
+ * 			without repeating the same subset.
  * 
  * Note		:	The bottleneck seems to be the I/O.
- * 				Time complexity ?
- * 				Space complexity of O(n).
+ * 			Time complexity ?
+ * 			Space complexity of O(n).
  */
 
 #include <stdio.h>
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 
 /**
  * Purpose	:	Simply allocates and initialises the subset array,
- * 				and increments until we get our complete array.
+ * 			and increments until we get our complete array.
  */
 void middleMan(int n) {
 	// holds the subset of current interest, with trailing zeros as placeholder
