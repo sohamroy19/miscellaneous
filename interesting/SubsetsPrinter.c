@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
 	int n;
 	printf("Enter integer : ");
 	scanf("%d", &n);
+	getchar();
 	printf("Subsets : \n");
 	middleMan(n);
 
