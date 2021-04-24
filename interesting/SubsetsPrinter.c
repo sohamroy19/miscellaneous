@@ -51,6 +51,8 @@ void middleMan(int n) {
 	// i.e. cannot increment further
 	while (increment(subset, n))
 		;
+	
+	free(subset);
 }
 
 /**
