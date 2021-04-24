@@ -11,8 +11,8 @@
  * 			Space complexity of O(n).
  */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>		// for I/O
+#include <stdlib.h>		// for malloc()
 
 void middleMan(int n);
 int increment(int *subset, int n);
