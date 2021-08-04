@@ -1,1 +1,0 @@
-# CVI Summer School
