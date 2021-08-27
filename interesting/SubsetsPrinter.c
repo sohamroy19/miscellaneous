@@ -7,7 +7,7 @@
  * 			without repeating the same subset.
  * 
  * Note		:	The bottleneck seems to be the I/O.
- * 			Time complexity ?
+ * 			Time complexity n * 2^n
  * 			Space complexity of O(n).
  */
 
