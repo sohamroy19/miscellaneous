@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 
+/**
+ * Simple matrix class that supports basic arithmetic (+, -, *), equality (==, !=) and
+ * exponentiation (pow).
+ */
 class Mat {
 public:
     int n, m;
@@ -57,6 +61,10 @@ public:
     }
 };
 
+/**
+ * finds nth number of a recurrence relation defined by initial state i
+ * and the square matrix f, by evaluating f^(n-1) * i
+ */
 int recurrer(std::vector<std::vector<int>> f, std::vector<std::vector<int>> i, int n) {
     Mat func(f), init(i);
     return (func.pow(n - 1) * init).a[1][0];
@@ -65,6 +73,14 @@ int recurrer(std::vector<std::vector<int>> f, std::vector<std::vector<int>> i, i
 int main() {
     int n;
     std::cin >> n;
+
+    /**
+     * Fibonacci: f(n + 1) = f(n) + f(n - 1)
+     * ⌈1 1⌉ * ⌈ f(n) ⌉ = ⌈f(n+1)⌉
+     * ⌊1 0⌋   ⌊f(n-1)⌋   ⌊ f(n) ⌋
+     * where ⌈f(2)⌉ = ⌈1⌉
+     *       ⌊f(1)⌋   ⌊1⌋
+     */
     std::cout << "F(" << n << ") = " << recurrer({{1, 1}, {1, 0}}, {{1}, {1}}, n) << "\n";
 
     return 0;
