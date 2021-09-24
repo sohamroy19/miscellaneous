@@ -76,10 +76,15 @@ int main() {
 
     /**
      * Fibonacci: f(n + 1) = f(n) + f(n - 1)
-     * ⌈1 1⌉ * ⌈ f(n) ⌉ = ⌈f(n+1)⌉
-     * ⌊1 0⌋   ⌊f(n-1)⌋   ⌊ f(n) ⌋
-     * where ⌈f(2)⌉ = ⌈1⌉
-     *       ⌊f(1)⌋   ⌊1⌋
+     * 
+     * Matrix form: ⌈1 1⌉ * ⌈ f(n) ⌉ = ⌈f(n+1)⌉
+     *              ⌊1 0⌋   ⌊f(n-1)⌋   ⌊ f(n) ⌋
+     * 
+     * where initial state: ⌈f(2)⌉ = ⌈1⌉
+     *                      ⌊f(1)⌋   ⌊1⌋
+     * 
+     * Thus, in general, we have: ⌈1 1⌉^(n-1) * ⌈f(2)⌉ = ⌈f(n+1)⌉
+     *                            ⌊1 0⌋         ⌊f(1)⌋   ⌊ f(n) ⌋
      */
     std::cout << "F(" << n << ") = " << recurrer({{1, 1}, {1, 0}}, {{1}, {1}}, n) << "\n";
 
