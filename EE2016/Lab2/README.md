@@ -1,5 +1,5 @@
 # Lab 2
-Second Lab Session! For details, check the [pdf](EE2016F21HndtExprmnt2AVR-Intrrpt.pdf).  
+Second Lab Session!  
 
 ### Aim
 To write an ISR to switch ON an LED for a second and then switch OFF, 10 times.  
