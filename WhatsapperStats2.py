@@ -20,7 +20,7 @@ for x in f:
         stats[sender] = stats.get(sender, 0) + 1  # increment sender's count
 
 # List of senders and counts
-for s, c in stats.items():
+for s, c in sorted(stats.items(), key=lambda x: x[1], reverse=True):
     print(s, " : ", c)
 
 # Total
