@@ -1,7 +1,7 @@
 # miscellaneous
 
 Compilation of interesting codes.
-- `SubsetsPrinter.c` generates all subsets of a set (naively)
-- `SubsetsPrinter2.cpp` generates all subsets of a set (elegantly)
+- `SubsetsPrinter.c` & `SubsetsPrinter2.cpp` generate all subsets of a set
 - `Matrix.cpp` is a basic matrix implementation
-- `WhatsappStats.py` gives the total number of messages sent by every user
+- `MasterTank.py` finds a master tank, i.e. a tank that can be used to fill every other tank
+- `WhatsappStats.py` & `WhatsappStats2.py` print the number of messages sent by every user
