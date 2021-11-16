@@ -1,3 +1,11 @@
+"""
+    Author: @sohamroy19
+    Date: 16/11/2021
+
+    This script prints the number of messages sent by a WhatsApp user,
+    given the exported chat as 'chat.txt'.
+"""
+
 import re
 
 # open the file
@@ -20,8 +28,9 @@ for x in f:
         stats[sender] = stats.get(sender, 0) + 1  # increment sender's count
 
 # List of senders and counts
-for s, c in sorted(stats.items(), key=lambda x: x[1], reverse=True):
-    print(s, " : ", c)
+pairs = sorted(stats.items(), key=lambda x: x[1], reverse=True)
+for i in range(len(pairs)):
+    print("{:3d}.".format(i + 1), pairs[i][0], "\t: ", pairs[i][1])
 
 # Total
 print("\nTotal : ", total)

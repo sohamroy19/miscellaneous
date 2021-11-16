@@ -1,3 +1,11 @@
+"""
+    Author: @sohamroy19
+    Date: 12/12/2020
+
+    This script prints the number of messages sent by a WhatsApp user,
+    given the exported chat as 'chat.txt'.
+"""
+
 import re
 
 # open the file
