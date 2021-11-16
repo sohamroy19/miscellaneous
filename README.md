@@ -1,7 +1,7 @@
 # miscellaneous
 
 Compilation of interesting codes.
-- #### [`SubsetsPrinter.c`](SubsetsPrinter.c) & [`SubsetsPrinter2.cpp`](SubsetsPrinter2.cpp)
+- #### [`SubsetsPrinterOld.c`](SubsetsPrinterOld.c) & [`SubsetsPrinter.cpp`](SubsetsPrinter.cpp)
   Generate all subsets of a set.
 
 - #### [`Matrix.cpp`](Matrix.cpp)
@@ -10,7 +10,7 @@ Compilation of interesting codes.
 - #### [`MasterTank.py`](MasterTank.py)
   Finds a master tank, i.e. a tank that can be used to fill every other tank.
 
-- #### [`WhatsappStats.py`](WhatsappStats.py) & [`WhatsappStats2.py`](WhatsappStats2.py)
+- #### [`WhatsappStatsOld.py`](WhatsappStatsOld.py) & [`WhatsappStats.py`](WhatsappStats.py)
   Print the number of messages sent by every user.
 
 - #### [`git-pull-all.sh`](git-pull-all.sh) & [`git-push-all.sh`](git-push-all.sh)

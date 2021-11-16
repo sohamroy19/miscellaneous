@@ -1,6 +1,6 @@
 """
     Author: @sohamroy19
-    Date: 16/11/2021
+    Date: 12/12/2020
 
     This script prints the number of messages sent by a WhatsApp user,
     given the exported chat as 'chat.txt'.
@@ -11,8 +11,9 @@ import re
 # open the file
 f = open("chat.txt", encoding="utf8")
 
-# now I know how to use map data structure
-stats = {}
+# idk how to use map data structure
+senders = []
+counts = []
 total = 0
 
 # read line by line, stripping is always fun
@@ -23,16 +24,19 @@ for x in f:
     m = re.match("\d+/\d+/\d+, \d+:\d+ - .+:", x)
     if m:
         sender = x.split("-")[1].split(":")[0].strip()  # extract sender
-
         total += 1  # increment total
-        stats[sender] = stats.get(sender, 0) + 1  # increment sender's count
+
+        try:
+            i = senders.index(sender)  # check if sender already exists
+        except ValueError:  # if not, then add entry
+            senders.append(sender)
+            counts.append(1)
+        else:  # if yes, then increment count
+            counts[i] += 1
 
 # List of senders and counts
-pairs = sorted(stats.items(), key=lambda x: x[1], reverse=True)
-
-print("  #. {:24s} : {:>8s}\n".format("Sender's Name", "Count"))
-for i in range(len(pairs)):
-    print("{:3d}. {:24s} : {:8d}".format(i + 1, pairs[i][0], pairs[i][1]))
+for s, c in zip(senders, counts):
+    print(s, " : ", c)
 
 # Total
-print("\nTotal : ", total)
+print("Total : ", total)
