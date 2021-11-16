@@ -10,7 +10,7 @@ Compilation of interesting codes.
 - #### [`MasterTank.py`](MasterTank.py)
   Finds a master tank, i.e. a tank that can be used to fill every other tank.
 
-- #### [`WhatsappStatsOld.py`](WhatsappStatsOld.py) & [`WhatsappStats.py`](WhatsappStats.py)
+- #### [`WhatsapperStatsOld.py`](WhatsapperStatsOld.py) & [`WhatsapperStats.py`](WhatsapperStats.py)
   Print the number of messages sent by every user.
 
 - #### [`git-pull-all.sh`](git-pull-all.sh) & [`git-push-all.sh`](git-push-all.sh)
