@@ -29,8 +29,10 @@ for x in f:
 
 # List of senders and counts
 pairs = sorted(stats.items(), key=lambda x: x[1], reverse=True)
+
+print("  #. {:24s} : {:>8s}\n".format("Sender's Name", "Count"))
 for i in range(len(pairs)):
-    print("{:3d}.".format(i + 1), pairs[i][0], "\t: ", pairs[i][1])
+    print("{:3d}. {:24s} : {:8d}".format(i + 1, pairs[i][0], pairs[i][1]))
 
 # Total
 print("\nTotal : ", total)
