@@ -1,6 +1,5 @@
-# miscellaneous
+# Tools
 
-Compilation of interesting codes.
 - [`WhatsapperStats.py`](Tools/WhatsapperStats.py)  
   Print the number of messages sent by every user.
 
@@ -9,9 +8,3 @@ Compilation of interesting codes.
 
 - [`Matrix.cpp`](Tools/Matrix.cpp)  
   A basic matrix implementation.
-
-- [`SubsetsPrinter.cpp`](Problems/SubsetsPrinter.cpp)  
-  Generate all subsets of a set.
-
-- [`MasterTank.py`](Problems/MasterTank.py)  
-  Finds a master tank, i.e. a tank that can be used to fill every other tank.

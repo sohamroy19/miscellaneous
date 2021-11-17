@@ -14,4 +14,3 @@ do
 	git pull
 	)
 done
-

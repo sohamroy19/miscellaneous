@@ -14,4 +14,3 @@ do
 	git push
 	)
 done
-
