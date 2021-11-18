@@ -27,12 +27,12 @@ for x in f:
         total += 1  # increment total
         stats[sender] = stats.get(sender, 0) + 1  # increment sender's count
 
-# List of senders and counts
-pairs = sorted(stats.items(), key=lambda x: x[1], reverse=True)
+# Print table of senders and counts
+print(f"""  #. {"Sender's Name":<24s} : {"Count":>8s}""")
+print("------------------------------+----------")
 
-print("  #. {:24s} : {:>8s}\n".format("Sender's Name", "Count"))
-for i in range(len(pairs)):
-    print("{:3d}. {:24s} : {:8d}".format(i + 1, pairs[i][0], pairs[i][1]))
+for i, stat in enumerate(sorted(stats.items(), key=lambda x: x[1], reverse=True)):
+    print(f"{(i + 1):>3d}. {stat[0]:<24s} : {stat[1]:>8d}")
 
-# Total
-print("\nTotal : ", total)
+print("------------------------------+----------")
+print(f"     Total                    : {total:8d}")
