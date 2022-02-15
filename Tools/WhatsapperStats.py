@@ -35,4 +35,4 @@ for i, stat in enumerate(sorted(stats.items(), key=lambda x: x[1], reverse=True)
     print(f"{(i + 1):>3d}. {stat[0]:<24s} : {stat[1]:>8d}")
 
 print("------------------------------+----------")
-print(f"     Total                    : {total:8d}")
+print(f"     Total                    : {total:>8d}")
