@@ -1,3 +1,4 @@
+// !!! Built between lecs on the last day to add courses !!!
 // 1. Login to Workflow
 // 2. Go to the 'Add/Drop Courses' tab
 // 3. Select course code & category
