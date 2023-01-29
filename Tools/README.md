@@ -1,5 +1,9 @@
 # Tools
 
+- [`WorkflowAdder.js`](Tools/WorkflowAdder.js)  
+  Add a course on Workflow as soon as there is a vacancy.  
+  Should work even if the tab is not in focus.
+
 - [`WhatsapperStats.py`](Tools/WhatsapperStats.py)  
   Print the number of messages sent by every user.
 
